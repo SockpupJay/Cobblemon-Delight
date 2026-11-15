@@ -105,6 +105,15 @@ public class CobblemonDelight {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.RAW_POKEBEEF);
+            event.accept(ModItems.RAW_POKECHICKEN);
+            event.accept(ModItems.RAW_POKEFISH);
+            event.accept(ModItems.RAW_POKELAMB);
+            event.accept(ModItems.RAW_POKEPORK);
+            event.accept(ModItems.POKEBEEF);
+            event.accept(ModItems.POKECHICKEN);
+            event.accept(ModItems.POKEFISH);
+            event.accept(ModItems.POKELAMB);
+            event.accept(ModItems.POKEPORK);
         }
     }
 
